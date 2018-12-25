@@ -1,0 +1,24 @@
+{
+  "name": "react-components-test-setup",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/evgimov/react-components-test-setup.svg?branch=master)](https://travis-ci.org/evgimov/react-components-test-setup)",
+  "main": "index.js",
+  "dependencies": {
+    "coveralls": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgimov/react-components-test-setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgimov/react-components-test-setup/issues"
+  },
+  "homepage": "https://github.com/evgimov/react-components-test-setup#readme"
+}
